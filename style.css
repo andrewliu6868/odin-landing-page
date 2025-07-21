@@ -22,7 +22,7 @@ button {
     font-weight: bold;
     color: white;
     padding: 8px 32px;
-    border-radius: 12%;
+    border-radius: 8px;
 }
 
 .header, .footer {
@@ -91,7 +91,7 @@ button {
     text-align: center;
     align-items: center;
     padding: 64px 280px;
-    gap: 12px;
+    gap: 24px;
 }
 
 .top-text{
@@ -117,7 +117,7 @@ button {
     flex: 1;
     background-color: #E5E7EB;
     color: #1F2837;
-    padding: 64px 180px;
+    padding: 120px 320px;
     font-size: 36px;
 }
 
@@ -133,14 +133,20 @@ button {
     padding: 100px 0;
 }
 
+.upper-text{
+    color: #F9FAF8;
+    font-weight: 900;
+}
 .blue-container{
     display: flex;
     background-color: #3882F6;
-    border-radius: 5%;
-    max-width: 500px;
-    padding: 16px 64px;
+    border-radius: 8px;
+    padding: 64px 100px;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 160px;
 }
 
 .bottom-button {
-    border: white;
+    border-color: white;
 }
